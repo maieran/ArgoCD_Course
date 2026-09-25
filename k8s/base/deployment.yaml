@@ -15,10 +15,10 @@ spec:
     spec:
       containers:
         - name: support-priority-api
-          image: support-priority-api:v1
+          image: support-priority-api:v2
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000
           env:
             - name: MODEL_VERSION
-              value: v1
+              value: v2
