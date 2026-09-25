@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: #TODO:  <URL_DE_VOTRE_FORK>
+    repoURL: https://github.com/maieran/ArgoCD_Course
     targetRevision: HEAD
-    path: #TODO: compléter le chemin vers les manifests de l'environnement de dev
+    path: k8s/overlays/dev
   destination:
     server: https://kubernetes.default.svc
     namespace: support-priority
